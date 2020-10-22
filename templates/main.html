@@ -1,0 +1,9 @@
+<html>
+<head>
+    <title>Item Details</title>
+    <link href="{{ url_for('create_new_task') }}" rel="stylesheet">
+</head>
+<body>
+    <a href="{{ url_for('task_status', task_id=task.id) }}">{{ url_for('task_status', task_id=task.id) }}</a>
+</body>
+</html>
